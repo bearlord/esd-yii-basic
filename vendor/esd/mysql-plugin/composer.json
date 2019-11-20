@@ -1,0 +1,33 @@
+{
+  "require": {
+    "esd/esd-core":"~0.1",
+    "esd/aop-plugin":"~0.1",
+    "thingengineer/mysqli-database-class": "~2.9.2"
+  },
+  "require-dev": {
+    "esd/esd-co-server":"~0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ESD\\Plugins\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "tmtbe",
+      "email": "896369042@qq.com",
+      "homepage": "https://github.com/tmtbe"
+    }
+  ],
+  "name": "esd/mysql-plugin",
+  "type": "library",
+  "keywords": ["server", "swoole"],
+  "description": "mysql-plugin",
+  "license": "MIT",
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.laravel-china.org"
+    }
+  }
+}

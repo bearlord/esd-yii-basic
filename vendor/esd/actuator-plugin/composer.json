@@ -1,0 +1,27 @@
+{
+  "require": {
+    "esd/esd-core": "~0.1",
+    "esd/aop-plugin": "~0.1",
+    "nikic/fast-route": "^1.3"
+  },
+  "require-dev": {
+    "esd/esd-co-server": "~0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ESD\\Plugins\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "tmtbe",
+      "email": "896369042@qq.com",
+      "homepage": "https://github.com/tmtbe"
+    }
+  ],
+  "name": "esd/actuator-plugin",
+  "type": "library",
+  "keywords": ["server", "swoole"],
+  "description": "actuator-plugin",
+  "license": "MIT"
+}

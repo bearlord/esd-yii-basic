@@ -1,0 +1,26 @@
+{
+  "require": {
+    "esd/esd-core":"~0.1"
+  },
+  "require-dev": {
+    "esd/esd-co-server":"~0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ESD\\Plugins\\": "src/",
+      "ESD\\Plugins\\ProcessRPC\\ExampleClass\\": "exampleClass/"
+    }
+  },
+  "authors": [
+    {
+      "name": "tmtbe",
+      "email": "896369042@qq.com",
+      "homepage": "https://github.com/tmtbe"
+    }
+  ],
+  "name": "esd/process-rpc-plugin",
+  "type": "library",
+  "keywords": ["server", "swoole"],
+  "description": "process-rpc-plugin",
+  "license": "MIT"
+}

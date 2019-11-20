@@ -1,0 +1,27 @@
+{
+  "require": {
+    "esd/esd-core":"~0.1",
+    "esd/aop-plugin":"~0.1",
+    "esd/session-plugin":"~0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ESD\\Plugins\\": "src/"
+    },
+    "files": [
+      "src/Security/Common.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "tmtbe",
+      "email": "896369042@qq.com",
+      "homepage": "https://github.com/tmtbe"
+    }
+  ],
+  "name": "esd/security-plugin",
+  "type": "library",
+  "keywords": ["server", "swoole"],
+  "description": "security-plugin",
+  "license": "MIT"
+}

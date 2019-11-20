@@ -1,0 +1,34 @@
+{
+  "require": {
+    "esd/esd-core":"~0.1",
+    "esd/esd-coroutine":"~0.1"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "ESD\\": "src/",
+      "ESD\\Server\\Co\\ExampleClass\\": "exampleClass/"
+    }
+  },
+
+  "authors": [
+    {
+      "name": "tmtbe",
+      "email": "896369042@qq.com",
+      "homepage": "https://github.com/tmtbe"
+    }
+  ],
+
+  "name": "esd/esd-co-server",
+  "type": "library",
+  "keywords": ["server", "swoole"],
+  "description": "esd-co-server",
+  "license": "MIT",
+
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.laravel-china.org"
+    }
+  }
+}

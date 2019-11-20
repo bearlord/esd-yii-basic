@@ -1,0 +1,62 @@
+reload:
+  enable: true
+blade:
+  namespace:
+    app:
+      path: ${ROOT_DIR}/src/Views
+
+redis:
+  default:
+    host: 'localhost'
+
+session:
+  timeout: 1800
+  db: default
+  session_storage_class: 'ESD\Plugins\Session\RedisSessionStorage'
+#  session_name: "SESSIONID"
+  session_usage: 'cookie'
+  domain: '192.168.108.130'
+  path: '/'
+  http_only: true
+  secure: false
+
+esd-yii:
+  components:
+    log:
+      traceLevel: 0
+      targets:
+        -
+          class: 'ESD\Yii\Log\FileTarget'
+          levels:
+            - error
+#            - warning
+#            - info
+#            - trace
+#            - profile
+
+    cache:
+      class: 'ESD\Yii\Redis\Cache'
+      redis:
+        database: 2
+
+    formatter:
+      sizeFormatBase: 1000
+
+    admin:
+      class: 'ESD\Yii\Web\User'
+      identityClass: 'app\Model\MySQL\Admin'
+      enableAutoLogin: true
+      enableSession: true
+      identityCookie:
+        name: _identity-admin
+        httpOnly: true
+
+  language: 'zh-CN'
+  db:
+    default:
+      dsn: 'pgsql:host=192.168.108.130;dbname=narucrm'
+      username: 'postgres'
+      password: '123456'
+      tablePrefix: 'n_'
+      poolMaxNumber: 10
+

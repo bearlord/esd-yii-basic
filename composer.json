@@ -1,0 +1,13 @@
+{
+    "require": {
+        "esd/esd-server": "^0.37.0",
+        "bearlord/esd-yii": "dev-master"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "require": {
+    "esd/esd-core": "~0.1",
+    "esd/redis-plugin":"~0.1"
+  },
+  "require-dev": {
+    "esd/esd-co-server": "~0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ESD\\Plugins\\": "src/",
+      "ESD\\Plugins\\Session\\ExampleClass\\": "exampleClass/"
+    }
+  },
+  "authors": [
+    {
+      "name": "tmtbe",
+      "email": "896369042@qq.com",
+      "homepage": "https://github.com/tmtbe"
+    }
+  ],
+  "name": "esd/session-plugin",
+  "type": "library",
+  "keywords": ["server", "swoole"],
+  "description": "session-plugin",
+  "license": "MIT"
+}

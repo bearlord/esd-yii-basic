@@ -1,0 +1,45 @@
+{
+  "require": {
+    "esd/esd-psr": "~0.1",
+    "monolog/monolog": "^1.24",
+    "symfony/console": "^4.2",
+    "symfony/yaml": "^4.2",
+    "php-di/php-di": "^6.0",
+    "ocramius/proxy-manager": "^2.1",
+    "doctrine/annotations": "^1.6",
+    "psr/http-message": "^1.0",
+
+    "ext-json": "*",
+    "ext-swoole": ">=4.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ESD\\": "src/",
+      "ESD\\ExampleClass\\": "exampleClass/src"
+    },
+    "files": [
+      "src/Core/Common.php"
+    ]
+  },
+
+  "authors": [
+    {
+      "name": "tmtbe",
+      "email": "896369042@qq.com",
+      "homepage": "https://github.com/tmtbe"
+    }
+  ],
+
+  "name": "esd/esd-core",
+  "type": "library",
+  "keywords": ["server", "swoole"],
+  "description": "esd-core",
+  "license": "MIT",
+
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.laravel-china.org"
+    }
+  }
+}

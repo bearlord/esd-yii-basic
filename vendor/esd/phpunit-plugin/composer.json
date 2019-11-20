@@ -1,0 +1,27 @@
+{
+  "require": {
+    "esd/esd-core":"~0.1",
+    "esd/console-plugin":"~0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ESD\\Plugins\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "tmtbe",
+      "email": "896369042@qq.com",
+      "homepage": "https://github.com/tmtbe"
+    }
+  ],
+  "name": "esd/phpunit-plugin",
+  "type": "library",
+  "keywords": ["server", "swoole"],
+  "description": "phpunit-plugin",
+  "license": "MIT",
+  "require-dev": {
+    "phpunit/phpunit": "^7.5",
+    "esd/esd-co-server":"~0.1"
+  }
+}

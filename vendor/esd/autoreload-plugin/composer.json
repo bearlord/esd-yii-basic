@@ -1,0 +1,31 @@
+{
+  "require": {
+    "esd/esd-core": "~0.1"
+  },
+  "require-dev": {
+    "esd/esd-co-server": "~0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ESD\\Plugins\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "tmtbe",
+      "email": "896369042@qq.com",
+      "homepage": "https://github.com/tmtbe"
+    }
+  ],
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.laravel-china.org"
+    }
+  },
+  "name": "esd/autoreload-plugin",
+  "type": "library",
+  "keywords": ["server", "swoole"],
+  "description": "autoreload-plugin",
+  "license": "MIT"
+}
